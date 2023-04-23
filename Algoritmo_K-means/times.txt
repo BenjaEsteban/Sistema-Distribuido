@@ -1,0 +1,38 @@
+
+Integrantes: 
+    - Javier Peña Castro                20.171.251-3
+    - Benjamín Rodríguez Valenzuela     20.306.194-3
+
+Información de hardware:
+    - Computadora: Macbook Pro Mid 2012 Modelo A1278
+    - Procesador: 2,5 GHz Intel Core i5 de dos núcleos
+    - Cantidad de hilos: 4
+    - RAM: 16 GB 1600 MHz DDR3
+    - Gráficos: Intel HD Graphics 4000 1536 MB
+
+Análisis de tiempos: 
+    Secuencial:
+        - DB de 100 vectores: 0.001809 s
+        - DB de 1000 vectores: 0.027764 s
+        - DB de 95000 vectores: 5.845918 s
+
+    Paralelo: 
+        Con 4 hilos:
+            - DB de 100 vectores: 0.005177 s
+            - DB de 1000 vectores: 0.064952 s
+            - DB de 95000 vectores: 3.903825 s
+            
+        Con 8 hilos (pruebas en servidor):
+            - DB de 100 vectores: 0.001208 s
+            - DB de 1000 vectores: 0.010119 s
+            - DB de 95000 vectores: 1.306721 s
+
+    Speed Up:
+        Fórmula = Secuencial Ts / Paralelo Tp (8 hilos)
+
+        - 100 vectores: 1.4975165562913906
+        - 1000 vectores: 2.743749382350035
+        - 95000 vectores: 4.473730811703493
+
+
+
