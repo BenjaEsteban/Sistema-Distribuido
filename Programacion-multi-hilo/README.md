@@ -1,0 +1,2 @@
+# Proyecto Universitario del Curso Sistemas Distribuidos 
+El proyecto consiste en la implementación del algoritmo K-means en el lenguaje de programación C, aplicando programación multi-hilos o paralela para optimizar y aprovechar al máximo el hardware en el que sea ejecutado el algoritmo.

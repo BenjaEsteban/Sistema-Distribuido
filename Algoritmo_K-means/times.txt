@@ -1,7 +1,7 @@
 
 Integrantes: 
-    - Javier Peña Castro                20.171.251-3
-    - Benjamín Rodríguez Valenzuela     20.306.194-3
+    - Javier Peña Castro                
+    - Benjamín Rodríguez Valenzuela     
 
 Información de hardware:
     - Computadora: Macbook Pro Mid 2012 Modelo A1278
